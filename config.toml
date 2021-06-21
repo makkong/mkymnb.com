@@ -7,10 +7,10 @@ publishDir = "docs"
 canonifyurls = true
 
 [params]
-    name = "example.org"
-    title = "Sada Theme"
-    author = "Darshan Baral"
-    description = "Simple portfolio theme"
+    name = "Makoto Noguchi website"
+    title = "Makoto Nuguchi website"
+    author = "Makoto Noguchi"
+    description = "プロフィール"
     copyright = "Custom copyright message"
     theme = "light" # `dark` or `light`
     useResources = false
@@ -89,7 +89,7 @@ canonifyurls = true
         interest = "Baking"
 
     [params.aboutme]
-        description = "Tagline. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "Tコンピュータサイエンスを専攻している修士課程１年生。主な研究テーマは、計算幾何学アルゴリズム、深層学習アルゴリズム。"
 
     # Experiences section
     [params.experiences]
