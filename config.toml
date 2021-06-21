@@ -1,9 +1,10 @@
-baseURL = "http://makkong.github.io/"
+baseURL = "https://makkong.github.io/mkymnb.com/"
 languageCode = "en-us"
 theme = "sada"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 publishDir = "docs"
+canonifyurls = true
 
 [params]
     name = "example.org"
