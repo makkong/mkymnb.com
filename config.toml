@@ -52,7 +52,6 @@ canonifyurls = true
         degree = "修士課程"
         college = "関西学院大学大学院 理工学研究科 情報科学専攻"
         dates = "2021.4 - *Present*"
-        details = "所属"
         details = "研究課題：系列情報や地形図の多峰近似アルゴリズム、時系列データ解析"
 
         [[params.education.list]]
@@ -98,8 +97,7 @@ canonifyurls = true
         dates = "2017.5 - *Present*"
 		link = "https://www.kyoshin.co.jp/s1/schooldetail/269/"
         company = "京進スクールワン - 個別指導塾"
-        details = "小学生から高校３年生までを幅広く担当。担当科目は国語・数学・英語全般、化学・物理・生物基礎、地理、情報"
-        details = "業務形態の改善や慢性的な退勤時間問題の解消にも従事"
+        details = "小学生から高校３年生までを幅広く担当。担当科目は国語・数学・英語全般、化学・物理・生物基礎、地理、情報。　更に、業務形態の改善や慢性的な退勤時間問題の解消にも従事"
 
         [[params.jobs.list]]
         dates = "2021.4 - *Present*"
@@ -110,30 +108,25 @@ canonifyurls = true
     [params.projects]
         title = "インターンシップ、イベント、勉強会"
 
-        [[params.projects.list]
-        description = "・在籍中の大学院にて、MLに関する書籍の輪読会に参加中"
-        description = "・2019.8 日本IBM 大阪支社にて、データサイエンススペシャリストや技術理事の方との座談会に参加"
+        [[params.projects.list]]
+        details = "・在籍中の大学院にて、MLに関する書籍の輪読会に参加中・2019.8 日本IBM 大阪支社にて、データサイエンススペシャリストや技術理事の方との座談会に参加"
 
     # Skills section
     [params.skills]
         title = "スキル"
 
         [[params.skills.list]]
-        skill = "Python"
-        details = "・１〜２年"
+        skill = "Python：１〜２年"
         details = "・研究時のプログラムや機械学習全般に使用"
                 
         [[params.skills.list]]
-        skill = "C"
-        details = "・２〜３年"
+        skill = "C：２〜３年"
         details = "大学3年時に、情報処理学会東北支部設立30周年記念プログラミングコンテストにおけるリンゴキャッチ競争という課題について、プログラムを作成"
 		
         [[params.skills.list]]
-        skill = "C++"
-        details = "・０〜１年"
+        skill = "C++：０〜１年"
         details = "Aizu Online Judgeを用いたデータ構造とアルゴリズムの学習時に使用"
 
         [[params.skills.list]]
-        skill = "HTML/CSS"
-        details = "・０〜１年"
+        skill = "HTML/CSS：０〜１年"
         details = "研究室のHPや当ウェブサイトの作成に使用"
