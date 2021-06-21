@@ -31,7 +31,7 @@ canonifyurls = true
 
         [[params.social.list]]
         icon = "fab fa-github"
-        url = "#"
+        url = "https://github.com/mocochanman"
         title = "GitHub"
 		
 		[[params.social.list]]
@@ -46,94 +46,94 @@ canonifyurls = true
 
     # Education section
     [params.education]
-        title = "Education"
+        title = "学歴"
 
         [[params.education.list]]
-        degree = "Masters in Degree 1"
-        college = "University Number 1"
-        dates = "2016 - 2018"
-        thesis_title = "Title of the dissertation"
-        thesis_link = "#"
+        degree = "修士課程"
+        college = "関西学院大学大学院 理工学研究科 情報科学専攻"
+        dates = "2021.4 - *Present*"
+        details = "所属"
+        details = "研究課題：系列情報や地形図の多峰近似アルゴリズム、時系列データ解析"
 
         [[params.education.list]]
-        degree = "Bachelors in Degree 2"
-        college = "University Number 2"
-        dates = "2010 - 2014"
+        degree = "学士"
+        college = "関西学院大学 理工学部 情報科学科"
+        dates = "2017 - 2021"
+        details = "学士研究：ヒストグラムの最適な簡略化と数理モデルに関する研究"
 
     # Languages section
     [params.language]
-        title = "Languages"
+        title = "言語"
 
         [[params.language.list]]
-        language = "English"
-        level = "Fluent"
+        language = "日本語"
+        level = "母国語"
 				
         [[params.language.list]]
-        language = "Bird"
-        level = "Basic"
+        language = "英語"
+        level = "TOEIC 700"
 
     # Interests section
     [params.hobbies]
-        title = "Hobbies"
+        title = "趣味"
 
         [[params.hobbies.list]]
-        interest = "Travelling"
+        interest = "サイクリング"
 		
 		[[params.hobbies.list]]
-        interest = "Music"
+        interest = "映画・アニメ鑑賞"
 
         [[params.hobbies.list]]
-        interest = "Flying"
-
-        [[params.hobbies.list]]
-        interest = "Baking"
+        interest = "ゲーム(Switch、スマホ)"
 
     [params.aboutme]
         description = "Tコンピュータサイエンスを専攻している修士課程１年生。主な研究テーマは、計算幾何学アルゴリズム、深層学習アルゴリズム。"
 
     # Experiences section
     [params.experiences]
-        title = "Experiences"
+        title = "職歴"
 
         [[params.jobs.list]]
-        position = "Job Number 1"
-        dates = "2018 - *Present*"
-		link = "#"
-        company = "Company name 1"
+        position = "Jアルバイト"
+        dates = "2017.5 - *Present*"
+		link = "https://www.kyoshin.co.jp/s1/schooldetail/269/"
+        company = "京進スクールワン - 個別指導塾"
+        details = "小学生から高校３年生までを幅広く担当。担当科目は国語・数学・英語全般、化学・物理・生物基礎、地理、情報"
+        details = "業務形態の改善や慢性的な退勤時間問題の解消にも従事"
 
         [[params.jobs.list]]
-        position = "Job Number 2"
-        dates = "2016 - 2018"
-		link = "#"
-        company = "Company name 2"
-        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        dates = "2021.4 - *Present*"
+        company = "研究補助及びTeaching Assistant"
+        details = "研究室におけるデータ収集やソフトウェア管理、実習系授業の採点担当"
 
     # Projects section
     [params.projects]
-        title = "Projects"
+        title = "インターンシップ、イベント、勉強会"
 
-        [[params.projects.list]]
-        title = "Awesome Project 1"
-        url = "#"
-        description = "Description of the *awesome* project 1"
-		
-		[[params.projects.list]]
-        title = "Awesome Project 2"
-        url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        [[params.projects.list]
+        description = "・在籍中の大学院にて、MLに関する書籍の輪読会に参加中"
+        description = "・2019.8 日本IBM 大阪支社にて、データサイエンススペシャリストや技術理事の方との座談会に参加"
 
     # Skills section
     [params.skills]
-        title = "Skills"
+        title = "スキル"
 
         [[params.skills.list]]
-        skill = "Skill 1, Skill 2"
-        skillrating = 95 # out of 100
+        skill = "Python"
+        details = "・１〜２年"
+        details = "・研究時のプログラムや機械学習全般に使用"
                 
         [[params.skills.list]]
-        skill = "Skill 3"
-        skillrating = 90
+        skill = "C"
+        details = "・２〜３年"
+        details = "大学3年時に、情報処理学会東北支部設立30周年記念プログラミングコンテストにおけるリンゴキャッチ競争という課題について、プログラムを作成"
 		
         [[params.skills.list]]
-        skill = "Skill 4"
-        skillrating = 80
+        skill = "C++"
+        details = "・０〜１年"
+        details = "Aizu Online Judgeを用いたデータ構造とアルゴリズムの学習時に使用"
+
+        [[params.skills.list]]
+        skill = "HTML/CSS"
+        details = "・０〜１年"
+        details = "研究室のHPや当ウェブサイトの作成に使用"
